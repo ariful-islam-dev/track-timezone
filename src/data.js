@@ -34,3 +34,44 @@ export const meeting = [
     zone: "+0600, Dhaka/Bangladesh",
   },
 ];
+
+export const timeZone = [
+  {
+    zone: "Asia/Dhaka",
+    name: "Dhaka, Bangladesh",
+    form: "Bangladesh",
+    GMT: "+0600",
+  },
+  {
+    zone: "Asia/Dili",
+    name: "New Dali, India",
+    form: "India",
+    GMT: "+0530",
+  },
+  {
+    zone: "Australia/Canberra",
+    name: "Canberra, Australia",
+    form: "Australia",
+    GMT: "+1000",
+  },
+  {
+    zone: "America/New_York",
+    name: "New York, USA",
+    form: "USA",
+    GMT: "-0700",
+  },
+  {
+    zone: "Asia/Karachi",
+    name: "Karachi, Pakistan",
+    form:"Pakistan",
+    GMT: "+0500",
+  },
+];
+
+export const formInit = {
+  title: "",
+  name: "",
+  date: "",
+  eventTime: "",
+  zone: "",
+};

@@ -5,6 +5,13 @@ h2 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+h1 {
+  font-size: 40px;
+  font-family: Arial;
+  background: -webkit-linear-gradient(45deg, #98064f, rgb(238, 255, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 p small {
   color: #746c6c;

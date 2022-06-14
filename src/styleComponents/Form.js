@@ -14,5 +14,10 @@ export const FormModal = styled.div `
  left: 50%;
  top: 50%;
  padding: 20px;
- transform: translate(-50%, -50%)
+ transform: translate(-50%, -50%);
+
+ h2{
+    color: #fff !important;
+    -webkit-text-fill-color: #fff
+ }
 `
