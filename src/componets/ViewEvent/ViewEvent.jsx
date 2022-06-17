@@ -43,13 +43,13 @@ const ViewEvent = ({
                 {formatDistance(new Date(), new Date(dateTime))}
               </p>
               <Button
-                style={{ fontSize: "16px" }}
+                style={{ fontSize: "16px", padding: "8px 10px" }}
                 onClick={() => handleUpdate(item)}
               >
                 Update
               </Button>{" "}
               <Button
-                style={{ fontSize: "16px" }}
+                style={{ fontSize: "16px", padding: "8px 10px" }}
                 onClick={() => handleDelete(`${item.id}`)}
               >
                 Delete

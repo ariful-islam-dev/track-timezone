@@ -8,7 +8,7 @@ export const Button = styled.button`
     margin: 10px auto;
     border-radius: 5px;
     background: radial-gradient(#78adde, #007bff);
-    color: red;
+    color: #c8ffca;
     text-transform: uppercase;
     font-weight: 800;
 
